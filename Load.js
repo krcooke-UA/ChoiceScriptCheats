@@ -8,12 +8,12 @@ function injectScript(src) {
     });
 }
 
-injectScript('https://raw.githubusercontent.com/krcooke-UA/ChoiceScriptCheats/main/Cheat.js')
+injectScript('https://cdn.jsdelivr.net/gh/krcooke-UA/ChoiceScriptCheats@main/Cheat.js')
     .then(() => {
         console.log('Script loaded!');
         var btns = document.getElementById("buttons");
         btns.innerHTML = btns.innerHTML + "<button id='cheatButton' class='spacedLink' onclick='log()'>Cheats</button>";
-        console.log(btns.innerHTML);
+        //console.log(btns.innerHTML);
     }).catch(error => {
         console.error(error);
     });
