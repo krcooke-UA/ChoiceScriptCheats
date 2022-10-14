@@ -8,7 +8,7 @@ function injectScript(src) {
     });
 }
 
-injectScript('https://github.com/krcooke-UA/ChoiceScriptCheats/blob/main/Cheat.js')
+injectScript('https://raw.githubusercontent.com/krcooke-UA/ChoiceScriptCheats/main/Cheat.js')
     .then(() => {
         console.log('Script loaded!');
         var btns = document.getElementById("buttons");
