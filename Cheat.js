@@ -1,5 +1,3 @@
-import React, { useState } from 'react';
-
 function log() {
     console.log(this.stats);
     var headerLinks = document.getElementById("headerLinks");
