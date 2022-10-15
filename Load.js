@@ -8,7 +8,7 @@ function injectScript(src) {
     });
 }
 
-injectScript('https://cdn.jsdelivr.net/gh/krcooke-UA/ChoiceScriptCheats@latest/Cheat.js')
+injectScript('https://cdn.jsdelivr.net/gh/krcooke-UA/ChoiceScriptCheats@3/Cheat.js')
     //https://raw.githubusercontent.com/krcooke-UA/ChoiceScriptCheats/main/Cheat.js
     .then(() => {
         console.log('Script loaded!');
