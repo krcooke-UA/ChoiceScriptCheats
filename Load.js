@@ -17,3 +17,15 @@ injectScript('https://cdn.jsdelivr.net/gh/krcooke-UA/ChoiceScriptCheats@main/Che
     }).catch(error => {
         console.error(error);
     });
+injectScript('https://unpkg.com/react@18/umd/react.development.js')
+    .then(() => {
+        console.log('Script loaded!');
+    }).catch(error => {
+        console.error(error);
+    });
+injectScript('https://unpkg.com/react-dom@18/umd/react-dom.development.js')
+    .then(() => {
+        console.log('Script loaded!');
+    }).catch(error => {
+        console.error(error);
+    });
