@@ -8,25 +8,12 @@ function injectScript(src) {
     });
 }
 
-injectScript('https://cdn.jsdelivr.net/gh/krcooke-UA/ChoiceScriptCheats@3/Cheat.js')
-    //https://raw.githubusercontent.com/krcooke-UA/ChoiceScriptCheats/main/Cheat.js
+injectScript('https://cdn.jsdelivr.net/gh/krcooke-UA/ChoiceScriptCheats@cd8ae87636eef449c3772311441f9416b1a5d638/Cheat.js')
     .then(() => {
         console.log('Script loaded!');
         var btns = document.getElementById("buttons");
-        btns.innerHTML = btns.innerHTML + "<button id='cheatButton' class='spacedLink' onclick='log()'>Cheats</button>";
+        btns.innerHTML = btns.innerHTML + "<button id='cheatButton' class='spacedLink' onclick='loadCheats()'>Cheats</button>";
         //console.log(btns.innerHTML);
-    }).catch(error => {
-        console.error(error);
-    });
-injectScript('https://unpkg.com/react@18/umd/react.development.js')
-    .then(() => {
-        console.log('Script loaded!');
-    }).catch(error => {
-        console.error(error);
-    });
-injectScript('https://unpkg.com/react-dom@18/umd/react-dom.development.js')
-    .then(() => {
-        console.log('Script loaded!');
     }).catch(error => {
         console.error(error);
     });
