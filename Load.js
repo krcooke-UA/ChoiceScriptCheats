@@ -1,3 +1,4 @@
+
 function injectScript(src) {
     return new Promise((resolve, reject) => {
         const script = document.createElement('script');
@@ -8,7 +9,7 @@ function injectScript(src) {
     });
 }
 
-injectScript('https://cdn.jsdelivr.net/gh/krcooke-UA/ChoiceScriptCheats@cd8ae87636eef449c3772311441f9416b1a5d638/Cheat.js')
+injectScript('https://cdn.jsdelivr.net/gh/krcooke-UA/ChoiceScriptCheats@8c7198031b8693366730f97d7e47bbe464632ab4/Cheat.js')
     .then(() => {
         console.log('Script loaded!');
         var btns = document.getElementById("buttons");
